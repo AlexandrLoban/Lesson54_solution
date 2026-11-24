@@ -13,7 +13,7 @@ int main() {
 	int y = 17;
 
 	cout << "Before: x = " << x << " y = " << y << endl;
-	swap(x, y);
+	swap(&x, &y);
 	cout << "After: x = " << x << " y = " << y << endl;
 
 	return 0;
